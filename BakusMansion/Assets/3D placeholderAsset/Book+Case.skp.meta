@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: faf64635ee2dc8b4a87077032b3c76a8
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 974cc7bec9e0697c58aec2b1da40ba02
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -0.7894121, y: 2.269764, z: -5.9012127}
+      lookAt: {x: 2.2928205, y: 0.9241977, z: 0.3301485}
+      up: {x: 0.08424951, y: 0.9817793, z: 0.17032756}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Group 2
+    100004: Image 10
+    100006: Image 11
+    100008: Image 12
+    100010: Image 13
+    100012: Image 14
+    100014: Image 15
+    100016: Image 16
+    100018: Image 17
+    100020: Image 18
+    100022: Image 19
+    100024: Image 20
+    100026: Image 21
+    100028: Image 22
+    100030: Image 23
+    100032: Image 24
+    100034: Image 25
+    100036: Image 26
+    100038: Image 3
+    100040: Image 4
+    100042: Image 5
+    100044: Image 6
+    100046: Image 7
+    100048: Image 8
+    100050: Image 9
+    400000: //RootNode
+    400002: Group 2
+    400004: Image 10
+    400006: Image 11
+    400008: Image 12
+    400010: Image 13
+    400012: Image 14
+    400014: Image 15
+    400016: Image 16
+    400018: Image 17
+    400020: Image 18
+    400022: Image 19
+    400024: Image 20
+    400026: Image 21
+    400028: Image 22
+    400030: Image 23
+    400032: Image 24
+    400034: Image 25
+    400036: Image 26
+    400038: Image 3
+    400040: Image 4
+    400042: Image 5
+    400044: Image 6
+    400046: Image 7
+    400048: Image 8
+    400050: Image 9
+    2100000: _defaultMat
+    2100002: '[Wood_Cherry_Original]'
+    2100004: Material 2
+    2100006: Material 3
+    2100008: Material 4
+    2100010: Material 5
+    2100012: Material 6
+    2100014: Material 7
+    2100016: Material 8
+    2100018: Material 9
+    2100020: Material 10
+    2100022: Material 11
+    2100024: Material 12
+    2100026: Material 13
+    2100028: Material 14
+    2100030: Material 15
+    2100032: Material 16
+    2100034: Material 17
+    2100036: Material 18
+    2100038: Material 19
+    2100040: Material 20
+    2100042: Material 21
+    2100044: Material 22
+    2100046: Material 23
+    2100048: Material 24
+    2100050: Material 25
+    2300000: //RootNode
+    2300002: Image 10
+    2300004: Image 11
+    2300006: Image 12
+    2300008: Image 13
+    2300010: Image 14
+    2300012: Image 15
+    2300014: Image 16
+    2300016: Image 17
+    2300018: Image 18
+    2300020: Image 19
+    2300022: Image 20
+    2300024: Image 21
+    2300026: Image 22
+    2300028: Image 23
+    2300030: Image 24
+    2300032: Image 25
+    2300034: Image 26
+    2300036: Image 3
+    2300038: Image 4
+    2300040: Image 5
+    2300042: Image 6
+    2300044: Image 7
+    2300046: Image 8
+    2300048: Image 9
+    3300000: //RootNode
+    3300002: Image 10
+    3300004: Image 11
+    3300006: Image 12
+    3300008: Image 13
+    3300010: Image 14
+    3300012: Image 15
+    3300014: Image 16
+    3300016: Image 17
+    3300018: Image 18
+    3300020: Image 19
+    3300022: Image 20
+    3300024: Image 21
+    3300026: Image 22
+    3300028: Image 23
+    3300030: Image 24
+    3300032: Image 25
+    3300034: Image 26
+    3300036: Image 3
+    3300038: Image 4
+    3300040: Image 5
+    3300042: Image 6
+    3300044: Image 7
+    3300046: Image 8
+    3300048: Image 9
+    4300000: Mesh Book+Case
+    4300002: Mesh Group 2
+    4300004: Mesh Group 2
+    4300006: Mesh Group 2
+    4300008: Mesh Group 2
+    4300010: Mesh Group 2
+    4300012: Mesh Group 2
+    4300014: Mesh Group 2
+    4300016: Mesh Group 2
+    4300018: Mesh Group 2
+    4300020: Mesh Group 2
+    4300022: Mesh Group 2
+    4300024: Mesh Group 2
+    4300026: Mesh Group 2
+    4300028: Mesh Group 2
+    4300030: Mesh Group 2
+    4300032: Mesh Group 2
+    4300034: Mesh Group 2
+    4300036: Mesh Group 2
+    4300038: Mesh Group 2
+    4300040: Mesh Group 2
+    4300042: Mesh Group 2
+    4300044: Mesh Group 2
+    4300046: Mesh Group 2
+    4300048: Mesh Group 2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

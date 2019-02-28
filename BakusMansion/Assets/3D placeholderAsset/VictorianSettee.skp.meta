@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 429dfa1e288677b459885b51f0c79242
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+  assetHash:
+    serializedVersion: 2
+    Hash: d58e4c48047968d759b6a674852af8d1
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.4796104, y: 0.9447467, z: -2.4570007}
+      lookAt: {x: -11.801719, y: -4.235725, z: 18.1467}
+      up: {x: -0.10809052, y: 0.97746265, z: 0.18133743}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arm
+    100002: Arm 1
+    100004: Back Leg
+    100006: Back Leg 1
+    100008: Front Leg
+    100010: Front Leg 1
+    100012: Group 1
+    100014: Group 2
+    100016: Group 4
+    100018: //RootNode
+    400000: Arm
+    400002: Arm 1
+    400004: Back Leg
+    400006: Back Leg 1
+    400008: Front Leg
+    400010: Front Leg 1
+    400012: Group 1
+    400014: Group 2
+    400016: Group 4
+    400018: //RootNode
+    2100000: mahogany-seamless_web_texture#1
+    2100002: _2
+    2300000: Arm
+    2300002: Arm 1
+    2300004: Back Leg
+    2300006: Back Leg 1
+    2300008: Front Leg
+    2300010: Front Leg 1
+    2300012: Group 2
+    2300014: Group 4
+    3300000: Arm
+    3300002: Arm 1
+    3300004: Back Leg
+    3300006: Back Leg 1
+    3300008: Front Leg
+    3300010: Front Leg 1
+    3300012: Group 2
+    3300014: Group 4
+    4300000: Mesh Group 2
+    4300002: Mesh Group 4
+    4300004: Mesh Arm
+    4300006: Mesh Back Leg
+    4300008: Mesh Front Leg
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

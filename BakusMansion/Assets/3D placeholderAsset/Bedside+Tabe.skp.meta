@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 757e86b2575ca75478515703fd8c97f0
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000016000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 2dcd43bd5308cb44c48f9772fe8880d3
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.7550345, y: 0.14307472, z: -0.75678056}
+      lookAt: {x: 0.6182397, y: 0.04150061, z: -0.5239876}
+      up: {x: -0.1783824, y: 0.9359636, z: 0.3035653}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Base
+    100002: Bedside Table
+    100004: //RootNode
+    100006: Complet Drawer
+    100008: Drawer
+    100010: Face
+    100012: Handle
+    100014: Inner Drawer
+    100016: Leg
+    100018: Leg 1
+    100020: Leg 2
+    100022: Leg 3
+    100024: Slider
+    100026: Table Top
+    400000: Base
+    400002: Bedside Table
+    400004: //RootNode
+    400006: Complet Drawer
+    400008: Drawer
+    400010: Face
+    400012: Handle
+    400014: Inner Drawer
+    400016: Leg
+    400018: Leg 1
+    400020: Leg 2
+    400022: Leg 3
+    400024: Slider
+    400026: Table Top
+    2100000: _defaultMat
+    2100002: '[Wood_Bamboo_Medium]'
+    2100004: '[Metal_Aluminum_Anodized]'
+    2300000: Base
+    2300002: Face
+    2300004: Handle
+    2300006: Leg
+    2300008: Leg 1
+    2300010: Leg 2
+    2300012: Leg 3
+    2300014: Slider
+    2300016: Table Top
+    3300000: Base
+    3300002: Face
+    3300004: Handle
+    3300006: Leg
+    3300008: Leg 1
+    3300010: Leg 2
+    3300012: Leg 3
+    3300014: Slider
+    3300016: Table Top
+    4300000: Mesh Leg
+    4300002: Mesh Table Top
+    4300004: Mesh Base
+    4300006: Mesh Face
+    4300008: Mesh Slider
+    4300010: Mesh Handle
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
