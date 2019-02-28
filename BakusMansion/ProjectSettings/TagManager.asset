@@ -9,6 +9,7 @@ TagManager:
   - painting3
   - woodBox
   - door
+  - weapon
   layers:
   - Default
   - TransparentFX

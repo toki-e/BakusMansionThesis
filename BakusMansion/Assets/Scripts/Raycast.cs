@@ -88,7 +88,17 @@ public class Raycast : MonoBehaviour
                     boxObserved = true;
                 }
 
-            }          
+            }
+
+            if (hit.collider.gameObject.tag == "weapon")
+            {
+                if (Input.GetKey(interactKey))
+                {
+                    subTimer = 5;
+                    thoughtText.text = "Really? What does he need these for?";                
+                }
+
+            }
 
         }
 
