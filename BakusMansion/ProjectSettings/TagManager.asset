@@ -10,6 +10,16 @@ TagManager:
   - woodBox
   - door
   - weapon
+  - gem
+  - dresser
+  - music
+  - painting1
+  - table1
+  - desk1
+  - nightstandL
+  - nightstandR
+  - papers
+  - largeWall
   layers:
   - Default
   - TransparentFX
