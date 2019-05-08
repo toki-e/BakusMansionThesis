@@ -37,8 +37,7 @@ public class LastPaintingTrigger : MonoBehaviour
             //coll.gameObject.isStatic = true;
             //coll.attachedRigidbody.useGravity = false;
 
-            lastInPlace = true;
-             
+            lastInPlace = true;            
             Debug.Log("hit!");  
 
         }

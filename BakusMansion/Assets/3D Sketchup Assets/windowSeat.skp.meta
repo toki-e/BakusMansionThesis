@@ -1,0 +1,729 @@
+fileFormatVersion: 2
+guid: 65858e10f8b0cd64c87e5eb6937e379e
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a010000
+  assetHash:
+    serializedVersion: 2
+    Hash: 705afba8b8c8fb106cac029310fa87c5
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 1.6850522, y: 2.2611277, z: -4.8216386}
+      lookAt: {x: 3.0804627, y: 1.226557, z: -2.071406}
+      up: {x: 0.14390668, y: 0.94807506, z: 0.28362754}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: anglecap
+    100002: anglecap 1
+    100004: angleply
+    100006: angleply 1
+    100008: backcap
+    100010: bn
+    100012: cleat
+    100014: cleat 1
+    100016: doorstyle
+    100018: doorstyle 1
+    100020: doorstyle 2
+    100022: doorstyle 3
+    100024: doorstyle 4
+    100026: doorstyle 5
+    100028: doorstyle 6
+    100030: doorstyle 7
+    100032: doorstyle 8
+    100034: doorstyle 9
+    100036: endangleback
+    100038: endangleback 1
+    100040: endangleback 2
+    100042: endangleback 3
+    100044: endangleback 4
+    100046: endangleback 5
+    100048: endanglebackcenter
+    100050: endcap
+    100052: endcap 1
+    100054: endcapbottom
+    100056: endcapbottom 1
+    100058: enddoorpanel
+    100060: enddoorpanel 1
+    100062: enddoorrail
+    100064: enddoorrail 1
+    100066: enddoorrail 2
+    100068: enddoorrail 3
+    100070: endendge
+    100072: endendge 1
+    100074: endff
+    100076: endff 1
+    100078: endtoekick
+    100080: endtoekick 1
+    100082: frontskirt
+    100084: frontskirt 1
+    100086: frontskirt 2
+    100088: Group 1
+    100090: Group 4
+    100092: kicker
+    100094: long_rail
+    100096: long_rail 1
+    100098: longrail
+    100100: lowerbackrail
+    100102: lowerbackrail 1
+    100104: lowerlongbackrail
+    100106: midpanel
+    100108: midrail
+    100110: midrail 1
+    100112: midspan
+    100114: midspan 1
+    100116: midspan 2
+    100118: seatply
+    100120: secondpanel
+    100122: secondpanel 1
+    100124: secondrail
+    100126: secondrail 1
+    100128: secondrail 2
+    100130: secondrail 3
+    100132: shortrail
+    100134: shortrail 1
+    100136: slat
+    100138: slat 1
+    100140: slat 10
+    100142: slat 11
+    100144: slat 12
+    100146: slat 13
+    100148: slat 14
+    100150: slat 15
+    100152: slat 16
+    100154: slat 17
+    100156: slat 18
+    100158: slat 19
+    100160: slat 2
+    100162: slat 20
+    100164: slat 21
+    100166: slat 22
+    100168: slat 23
+    100170: slat 24
+    100172: slat 25
+    100174: slat 26
+    100176: slat 27
+    100178: slat 28
+    100180: slat 29
+    100182: slat 3
+    100184: slat 30
+    100186: slat 31
+    100188: slat 32
+    100190: slat 33
+    100192: slat 34
+    100194: slat 35
+    100196: slat 36
+    100198: slat 37
+    100200: slat 38
+    100202: slat 39
+    100204: slat 4
+    100206: slat 40
+    100208: slat 41
+    100210: slat 42
+    100212: slat 43
+    100214: slat 44
+    100216: slat 45
+    100218: slat 46
+    100220: slat 47
+    100222: slat 5
+    100224: slat 6
+    100226: slat 7
+    100228: slat 8
+    100230: slat 9
+    100232: spancleat
+    100234: spancleat 1
+    100236: spancleat 2
+    100238: spancleat 3
+    100240: spancleat 4
+    100242: spancleat 5
+    100244: style
+    100246: style 1
+    100248: style 2
+    100250: style 3
+    100252: topskin
+    100254: walls_cubby
+    100256: walls_cubby 1
+    100258: walls_cubby 2
+    100260: walls_cubby 3
+    100262: walls_cubby 4
+    100264: walls_cubby 5
+    100266: walls_cubby 6
+    100268: walls_cubby 7
+    100270: wdw_back_lower
+    100272: wdw_sub_back_rail
+    100274: wdw_sub_rib
+    100276: wdw_sub_rib 1
+    100278: wdw_sub_rib 2
+    100280: wdw_sub_rib 3
+    100282: //RootNode
+    100284: zzz_floor
+    400000: anglecap
+    400002: anglecap 1
+    400004: angleply
+    400006: angleply 1
+    400008: backcap
+    400010: bn
+    400012: cleat
+    400014: cleat 1
+    400016: doorstyle
+    400018: doorstyle 1
+    400020: doorstyle 2
+    400022: doorstyle 3
+    400024: doorstyle 4
+    400026: doorstyle 5
+    400028: doorstyle 6
+    400030: doorstyle 7
+    400032: doorstyle 8
+    400034: doorstyle 9
+    400036: endangleback
+    400038: endangleback 1
+    400040: endangleback 2
+    400042: endangleback 3
+    400044: endangleback 4
+    400046: endangleback 5
+    400048: endanglebackcenter
+    400050: endcap
+    400052: endcap 1
+    400054: endcapbottom
+    400056: endcapbottom 1
+    400058: enddoorpanel
+    400060: enddoorpanel 1
+    400062: enddoorrail
+    400064: enddoorrail 1
+    400066: enddoorrail 2
+    400068: enddoorrail 3
+    400070: endendge
+    400072: endendge 1
+    400074: endff
+    400076: endff 1
+    400078: endtoekick
+    400080: endtoekick 1
+    400082: frontskirt
+    400084: frontskirt 1
+    400086: frontskirt 2
+    400088: Group 1
+    400090: Group 4
+    400092: kicker
+    400094: long_rail
+    400096: long_rail 1
+    400098: longrail
+    400100: lowerbackrail
+    400102: lowerbackrail 1
+    400104: lowerlongbackrail
+    400106: midpanel
+    400108: midrail
+    400110: midrail 1
+    400112: midspan
+    400114: midspan 1
+    400116: midspan 2
+    400118: seatply
+    400120: secondpanel
+    400122: secondpanel 1
+    400124: secondrail
+    400126: secondrail 1
+    400128: secondrail 2
+    400130: secondrail 3
+    400132: shortrail
+    400134: shortrail 1
+    400136: slat
+    400138: slat 1
+    400140: slat 10
+    400142: slat 11
+    400144: slat 12
+    400146: slat 13
+    400148: slat 14
+    400150: slat 15
+    400152: slat 16
+    400154: slat 17
+    400156: slat 18
+    400158: slat 19
+    400160: slat 2
+    400162: slat 20
+    400164: slat 21
+    400166: slat 22
+    400168: slat 23
+    400170: slat 24
+    400172: slat 25
+    400174: slat 26
+    400176: slat 27
+    400178: slat 28
+    400180: slat 29
+    400182: slat 3
+    400184: slat 30
+    400186: slat 31
+    400188: slat 32
+    400190: slat 33
+    400192: slat 34
+    400194: slat 35
+    400196: slat 36
+    400198: slat 37
+    400200: slat 38
+    400202: slat 39
+    400204: slat 4
+    400206: slat 40
+    400208: slat 41
+    400210: slat 42
+    400212: slat 43
+    400214: slat 44
+    400216: slat 45
+    400218: slat 46
+    400220: slat 47
+    400222: slat 5
+    400224: slat 6
+    400226: slat 7
+    400228: slat 8
+    400230: slat 9
+    400232: spancleat
+    400234: spancleat 1
+    400236: spancleat 2
+    400238: spancleat 3
+    400240: spancleat 4
+    400242: spancleat 5
+    400244: style
+    400246: style 1
+    400248: style 2
+    400250: style 3
+    400252: topskin
+    400254: walls_cubby
+    400256: walls_cubby 1
+    400258: walls_cubby 2
+    400260: walls_cubby 3
+    400262: walls_cubby 4
+    400264: walls_cubby 5
+    400266: walls_cubby 6
+    400268: walls_cubby 7
+    400270: wdw_back_lower
+    400272: wdw_sub_back_rail
+    400274: wdw_sub_rib
+    400276: wdw_sub_rib 1
+    400278: wdw_sub_rib 2
+    400280: wdw_sub_rib 3
+    400282: //RootNode
+    400284: zzz_floor
+    2100000: _defaultMat
+    2100002: '[Wood_ Floor]'
+    2100004: '[0045_Goldenrod]'
+    2100006: '[Wood_Plywood_Knots]'
+    2100008: '[0043_SaddleBrown]'
+    2100010: '[0010_Snow]'
+    2100012: '[0137_Black]'
+    2300000: anglecap
+    2300002: anglecap 1
+    2300004: angleply
+    2300006: angleply 1
+    2300008: backcap
+    2300010: bn
+    2300012: cleat
+    2300014: cleat 1
+    2300016: doorstyle
+    2300018: doorstyle 1
+    2300020: doorstyle 2
+    2300022: doorstyle 3
+    2300024: doorstyle 4
+    2300026: doorstyle 5
+    2300028: doorstyle 6
+    2300030: doorstyle 7
+    2300032: doorstyle 8
+    2300034: doorstyle 9
+    2300036: endangleback
+    2300038: endangleback 1
+    2300040: endangleback 2
+    2300042: endangleback 3
+    2300044: endangleback 4
+    2300046: endangleback 5
+    2300048: endanglebackcenter
+    2300050: endcap
+    2300052: endcap 1
+    2300054: endcapbottom
+    2300056: endcapbottom 1
+    2300058: enddoorpanel
+    2300060: enddoorpanel 1
+    2300062: enddoorrail
+    2300064: enddoorrail 1
+    2300066: enddoorrail 2
+    2300068: enddoorrail 3
+    2300070: endendge
+    2300072: endendge 1
+    2300074: endff
+    2300076: endff 1
+    2300078: endtoekick
+    2300080: endtoekick 1
+    2300082: frontskirt
+    2300084: frontskirt 1
+    2300086: frontskirt 2
+    2300088: kicker
+    2300090: long_rail
+    2300092: long_rail 1
+    2300094: longrail
+    2300096: lowerbackrail
+    2300098: lowerbackrail 1
+    2300100: lowerlongbackrail
+    2300102: midpanel
+    2300104: midrail
+    2300106: midrail 1
+    2300108: midspan
+    2300110: midspan 1
+    2300112: midspan 2
+    2300114: seatply
+    2300116: secondpanel
+    2300118: secondpanel 1
+    2300120: secondrail
+    2300122: secondrail 1
+    2300124: secondrail 2
+    2300126: secondrail 3
+    2300128: shortrail
+    2300130: shortrail 1
+    2300132: slat
+    2300134: slat 1
+    2300136: slat 10
+    2300138: slat 11
+    2300140: slat 12
+    2300142: slat 13
+    2300144: slat 14
+    2300146: slat 15
+    2300148: slat 16
+    2300150: slat 17
+    2300152: slat 18
+    2300154: slat 19
+    2300156: slat 2
+    2300158: slat 20
+    2300160: slat 21
+    2300162: slat 22
+    2300164: slat 23
+    2300166: slat 24
+    2300168: slat 25
+    2300170: slat 26
+    2300172: slat 27
+    2300174: slat 28
+    2300176: slat 29
+    2300178: slat 3
+    2300180: slat 30
+    2300182: slat 31
+    2300184: slat 32
+    2300186: slat 33
+    2300188: slat 34
+    2300190: slat 35
+    2300192: slat 36
+    2300194: slat 37
+    2300196: slat 38
+    2300198: slat 39
+    2300200: slat 4
+    2300202: slat 40
+    2300204: slat 41
+    2300206: slat 42
+    2300208: slat 43
+    2300210: slat 44
+    2300212: slat 45
+    2300214: slat 46
+    2300216: slat 47
+    2300218: slat 5
+    2300220: slat 6
+    2300222: slat 7
+    2300224: slat 8
+    2300226: slat 9
+    2300228: spancleat
+    2300230: spancleat 1
+    2300232: spancleat 2
+    2300234: spancleat 3
+    2300236: spancleat 4
+    2300238: spancleat 5
+    2300240: style
+    2300242: style 1
+    2300244: style 2
+    2300246: style 3
+    2300248: topskin
+    2300250: walls_cubby
+    2300252: walls_cubby 1
+    2300254: walls_cubby 2
+    2300256: walls_cubby 3
+    2300258: walls_cubby 4
+    2300260: walls_cubby 5
+    2300262: walls_cubby 6
+    2300264: walls_cubby 7
+    2300266: wdw_back_lower
+    2300268: wdw_sub_back_rail
+    2300270: wdw_sub_rib
+    2300272: wdw_sub_rib 1
+    2300274: wdw_sub_rib 2
+    2300276: wdw_sub_rib 3
+    2300278: zzz_floor
+    3300000: anglecap
+    3300002: anglecap 1
+    3300004: angleply
+    3300006: angleply 1
+    3300008: backcap
+    3300010: bn
+    3300012: cleat
+    3300014: cleat 1
+    3300016: doorstyle
+    3300018: doorstyle 1
+    3300020: doorstyle 2
+    3300022: doorstyle 3
+    3300024: doorstyle 4
+    3300026: doorstyle 5
+    3300028: doorstyle 6
+    3300030: doorstyle 7
+    3300032: doorstyle 8
+    3300034: doorstyle 9
+    3300036: endangleback
+    3300038: endangleback 1
+    3300040: endangleback 2
+    3300042: endangleback 3
+    3300044: endangleback 4
+    3300046: endangleback 5
+    3300048: endanglebackcenter
+    3300050: endcap
+    3300052: endcap 1
+    3300054: endcapbottom
+    3300056: endcapbottom 1
+    3300058: enddoorpanel
+    3300060: enddoorpanel 1
+    3300062: enddoorrail
+    3300064: enddoorrail 1
+    3300066: enddoorrail 2
+    3300068: enddoorrail 3
+    3300070: endendge
+    3300072: endendge 1
+    3300074: endff
+    3300076: endff 1
+    3300078: endtoekick
+    3300080: endtoekick 1
+    3300082: frontskirt
+    3300084: frontskirt 1
+    3300086: frontskirt 2
+    3300088: kicker
+    3300090: long_rail
+    3300092: long_rail 1
+    3300094: longrail
+    3300096: lowerbackrail
+    3300098: lowerbackrail 1
+    3300100: lowerlongbackrail
+    3300102: midpanel
+    3300104: midrail
+    3300106: midrail 1
+    3300108: midspan
+    3300110: midspan 1
+    3300112: midspan 2
+    3300114: seatply
+    3300116: secondpanel
+    3300118: secondpanel 1
+    3300120: secondrail
+    3300122: secondrail 1
+    3300124: secondrail 2
+    3300126: secondrail 3
+    3300128: shortrail
+    3300130: shortrail 1
+    3300132: slat
+    3300134: slat 1
+    3300136: slat 10
+    3300138: slat 11
+    3300140: slat 12
+    3300142: slat 13
+    3300144: slat 14
+    3300146: slat 15
+    3300148: slat 16
+    3300150: slat 17
+    3300152: slat 18
+    3300154: slat 19
+    3300156: slat 2
+    3300158: slat 20
+    3300160: slat 21
+    3300162: slat 22
+    3300164: slat 23
+    3300166: slat 24
+    3300168: slat 25
+    3300170: slat 26
+    3300172: slat 27
+    3300174: slat 28
+    3300176: slat 29
+    3300178: slat 3
+    3300180: slat 30
+    3300182: slat 31
+    3300184: slat 32
+    3300186: slat 33
+    3300188: slat 34
+    3300190: slat 35
+    3300192: slat 36
+    3300194: slat 37
+    3300196: slat 38
+    3300198: slat 39
+    3300200: slat 4
+    3300202: slat 40
+    3300204: slat 41
+    3300206: slat 42
+    3300208: slat 43
+    3300210: slat 44
+    3300212: slat 45
+    3300214: slat 46
+    3300216: slat 47
+    3300218: slat 5
+    3300220: slat 6
+    3300222: slat 7
+    3300224: slat 8
+    3300226: slat 9
+    3300228: spancleat
+    3300230: spancleat 1
+    3300232: spancleat 2
+    3300234: spancleat 3
+    3300236: spancleat 4
+    3300238: spancleat 5
+    3300240: style
+    3300242: style 1
+    3300244: style 2
+    3300246: style 3
+    3300248: topskin
+    3300250: walls_cubby
+    3300252: walls_cubby 1
+    3300254: walls_cubby 2
+    3300256: walls_cubby 3
+    3300258: walls_cubby 4
+    3300260: walls_cubby 5
+    3300262: walls_cubby 6
+    3300264: walls_cubby 7
+    3300266: wdw_back_lower
+    3300268: wdw_sub_back_rail
+    3300270: wdw_sub_rib
+    3300272: wdw_sub_rib 1
+    3300274: wdw_sub_rib 2
+    3300276: wdw_sub_rib 3
+    3300278: zzz_floor
+    4300000: Mesh zzz_floor
+    4300002: Mesh walls_cubby
+    4300004: Mesh walls_cubby
+    4300006: Mesh walls_cubby
+    4300008: Mesh walls_cubby
+    4300010: Mesh walls_cubby
+    4300012: Mesh walls_cubby
+    4300014: Mesh walls_cubby
+    4300016: Mesh walls_cubby
+    4300018: Mesh wdw_back_lower
+    4300020: Mesh slat
+    4300022: Mesh anglecap
+    4300024: Mesh endcapbottom
+    4300026: Mesh endendge
+    4300028: Mesh midpanel
+    4300030: Mesh wdw_sub_rib
+    4300032: Mesh bn
+    4300034: Mesh spancleat
+    4300036: Mesh wdw_sub_back_rail
+    4300038: Mesh secondrail
+    4300040: Mesh endcap
+    4300042: Mesh topskin
+    4300044: Mesh enddoorpanel
+    4300046: Mesh midrail
+    4300048: Mesh style
+    4300050: Mesh endtoekick
+    4300052: Mesh midspan
+    4300054: Mesh endff
+    4300056: Mesh doorstyle
+    4300058: Mesh enddoorrail
+    4300060: Mesh longrail
+    4300062: Mesh cleat
+    4300064: Mesh shortrail
+    4300066: Mesh frontskirt
+    4300068: Mesh endangleback
+    4300070: Mesh angleply
+    4300072: Mesh kicker
+    4300074: Mesh secondpanel
+    4300076: Mesh seatply
+    4300078: Mesh endff
+    4300080: Mesh backcap
+    4300082: Mesh long_rail
+    4300084: Mesh lowerbackrail
+    4300086: Mesh lowerlongbackrail
+    4300088: Mesh endanglebackcenter
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

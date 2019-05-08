@@ -20,6 +20,30 @@ TagManager:
   - nightstandR
   - papers
   - largeWall
+  - blood
+  - studyDoor
+  - armoryDoor
+  - lamp
+  - bakusNote
+  - augustsKotoNote
+  - augustsLaikaNote
+  - augustsRenNote
+  - letterStack
+  - king
+  - queen
+  - scratches
+  - dagger
+  - rope2
+  - rope1
+  - trunk
+  - pedestal
+  - armor
+  - yellowGem
+  - case
+  - trunkFront
+  - piano
+  - yellowBarrier
+  - LaikaWriting
   layers:
   - Default
   - TransparentFX

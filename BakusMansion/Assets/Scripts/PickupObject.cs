@@ -43,7 +43,7 @@ public class PickupObject : MonoBehaviour
 
     void pickup()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonUp(0))
         {
             int x = Screen.width / 2;
             int y = Screen.height / 2;
@@ -66,7 +66,7 @@ public class PickupObject : MonoBehaviour
 
     void checkDrop()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonUp(0))
         {
             dropObject();
         }

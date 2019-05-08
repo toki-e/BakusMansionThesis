@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: 0699008e3975ae940afaea3fc5a0edd1
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000
+  assetHash:
+    serializedVersion: 2
+    Hash: fd10bca2d73cf56117b7ead864e270a4
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.19943184, y: 0.19242355, z: -0.19132641}
+      lookAt: {x: -3.166217, y: -4.61432, z: 4.776502}
+      up: {x: -0.35066313, y: 0.78047, z: 0.51759243}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Brass Hinges 3 sizes
+    100002: Brass Hinges 3 sizes 1
+    100004: Brass Knob
+    100006: //RootNode
+    100008: EXT01
+    100010: FOUNTAIN P
+    100012: FOUNTAIN P 1
+    100014: FOUNTAIN P 2
+    100016: FOUNTAIN P 3
+    100018: Group 2
+    100020: Group 28
+    100022: Group 5
+    100024: Knob
+    100026: PEN
+    100028: pen nib
+    100030: PEN#1
+    100032: sketchup-download200610080010116
+    100034: Small Ink Bottle
+    400000: Brass Hinges 3 sizes
+    400002: Brass Hinges 3 sizes 1
+    400004: Brass Knob
+    400006: //RootNode
+    400008: EXT01
+    400010: FOUNTAIN P
+    400012: FOUNTAIN P 1
+    400014: FOUNTAIN P 2
+    400016: FOUNTAIN P 3
+    400018: Group 2
+    400020: Group 28
+    400022: Group 5
+    400024: Knob
+    400026: PEN
+    400028: pen nib
+    400030: PEN#1
+    400032: sketchup-download200610080010116
+    400034: Small Ink Bottle
+    2100000: _defaultMat
+    2100002: '[Wood_Bamboo_Medium]'
+    2100004: '[0055_LightGoldenrodYellow]1'
+    2100006: '[Vegetation_Blur3]'
+    2100008: base plumilla1
+    2100010: pluma1
+    2100012: plumilla1
+    2100014: '[Color_B16]'
+    2100016: '[0046_Gold]'
+    2100018: Brass
+    2100020: _Jade_
+    2100022: Gold5
+    2100024: PaperMate
+    2300000: Brass Hinges 3 sizes
+    2300002: Brass Hinges 3 sizes 1
+    2300004: //RootNode
+    2300006: EXT01
+    2300008: FOUNTAIN P
+    2300010: FOUNTAIN P 1
+    2300012: FOUNTAIN P 2
+    2300014: FOUNTAIN P 3
+    2300016: Group 2
+    2300018: Group 28
+    2300020: Knob
+    2300022: PEN
+    2300024: sketchup-download200610080010116
+    2300026: Small Ink Bottle
+    3300000: Brass Hinges 3 sizes
+    3300002: Brass Hinges 3 sizes 1
+    3300004: //RootNode
+    3300006: EXT01
+    3300008: FOUNTAIN P
+    3300010: FOUNTAIN P 1
+    3300012: FOUNTAIN P 2
+    3300014: FOUNTAIN P 3
+    3300016: Group 2
+    3300018: Group 28
+    3300020: Knob
+    3300022: PEN
+    3300024: sketchup-download200610080010116
+    3300026: Small Ink Bottle
+    4300000: Mesh deskTray
+    4300002: Mesh Group 2
+    4300004: Mesh EXT01
+    4300006: Mesh PEN
+    4300008: Mesh FOUNTAIN P
+    4300010: Mesh Small Ink Bottle
+    4300012: Mesh Brass Hinges 3 sizes
+    4300014: Mesh Knob
+    4300016: Mesh Group 28
+    4300018: Mesh sketchup-download200610080010116
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
