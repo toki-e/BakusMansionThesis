@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class safeSpotScript : MonoBehaviour
 {
+    public AudioSource heartSource;
+    public AudioClip heartClip;
 
     public int timeSafe;
     public bool safe;
@@ -35,6 +37,20 @@ public class safeSpotScript : MonoBehaviour
         if(coll.gameObject.tag == "Player")
         {
             timeSafe++;
+
+            if (!heartSource.isPlaying && !safe)
+            {
+                heartSource.PlayOneShot(heartClip, 1);
+            }
+
+        }
+    }
+
+    private void OnTriggerExit(Collider coll)
+    {
+        if(coll.gameObject.tag == "Player")
+        {
+            heartSource.Stop();
 
         }
     }

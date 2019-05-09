@@ -25,10 +25,12 @@ public class Raycast : MonoBehaviour
     public GameObject rope2;
     public GameObject trunkLid;
 
+    public GameObject caseSparkleParticle;
     public GameObject pianoParticle;
     public GameObject yellowGem;
 
     public GameObject laikaSoundTrigger;
+    public GameObject tearGem;
 
     public Text interactText;
     public Text thoughtText;
@@ -42,6 +44,9 @@ public class Raycast : MonoBehaviour
     public Image redGemIMG;
     public Image swordIMG;
     public Image yellowGemIMG;
+    public Image purpleGemIMG;
+
+    public Image completeIMG;
 
     public bool boxObserved;
     public bool gemCollected;
@@ -53,9 +58,14 @@ public class Raycast : MonoBehaviour
     public bool yellowGemCollected;
     public bool yellowBarrierBroken;
 
+    public bool purpleGemCollected;
+    public bool laikaBarrierBroken;
+
     public float subTimer;
     public float gemAppearTimer;
     public float barrierDisappearTimer;
+    public float timeToCompleteImg;
+
 
     public AudioSource appearSound;
     public AudioClip appearClip;
@@ -86,6 +96,8 @@ public class Raycast : MonoBehaviour
     public Animator yellowBarrierAnimator;
     public Animator gateAnimator;
 
+    public Animator laikaBarrierAnimator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -94,6 +106,7 @@ public class Raycast : MonoBehaviour
 
         mainCamera = GameObject.FindWithTag("MainCamera");
         bookParticle.SetActive(false);
+        caseSparkleParticle.SetActive(false);
 
         interactKey = KeyCode.E;
         closeKey = KeyCode.Q;
@@ -104,8 +117,10 @@ public class Raycast : MonoBehaviour
 
         boxObserved = false;
         gemCollected = false;
-        gemAppearTimer = 1f;
+        gemAppearTimer = 0.5f;
         barrierDisappearTimer = 2f;
+
+        timeToCompleteImg = 2f;
 
         gemAnimator = gem.GetComponent<Animator>();
         barrierAnimator = barrier.GetComponent<Animator>();
@@ -122,10 +137,13 @@ public class Raycast : MonoBehaviour
         redGemIMG.enabled = false;
         swordIMG.enabled = false;
         yellowGemIMG.enabled = false;
+        purpleGemIMG.enabled = false;
+        completeIMG.enabled = false;
 
         daggerCollected = false;
         ropeCut = false;
         yellowGemCollected = false;
+        purpleGemCollected = false;
     }
 
     // Update is called once per frame
@@ -172,7 +190,7 @@ public class Raycast : MonoBehaviour
                 {
                     subTimer = 5;
                     thoughtText.text = "I'll read later...";
-                    interactText.text = "  ";                             
+                    interactText.text = "  ";
                 }
 
             } else
@@ -195,11 +213,11 @@ public class Raycast : MonoBehaviour
             if (hit.collider.gameObject.tag == "door" && gemCollected == true)
             {
                 if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
-                { 
-                     subTimer = 5;
-                     thoughtText.text = "I'll use this.";
-                     barrierAnimator.SetTrigger("brokenTrigger");
-                     barrierDispelled = true;
+                {
+                    subTimer = 5;
+                    thoughtText.text = "I'll use this.";
+                    barrierAnimator.SetTrigger("brokenTrigger");
+                    barrierDispelled = true;
                 }
             }
 
@@ -210,7 +228,7 @@ public class Raycast : MonoBehaviour
                 barrierDisappearTimer -= Time.deltaTime;
             }
 
-            if(barrierDisappearTimer <= 0)
+            if (barrierDisappearTimer <= 0)
             {
                 barrier.SetActive(false);
 
@@ -227,7 +245,7 @@ public class Raycast : MonoBehaviour
                 }
             }
 
-            if(hit.collider.gameObject.tag == "woodBox")
+            if (hit.collider.gameObject.tag == "woodBox")
             {
                 if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
                 {
@@ -235,7 +253,7 @@ public class Raycast : MonoBehaviour
                     thoughtText.text = "This wasn't here before... There's something inside.";
                     boxObserved = true;
                     boxAnimator.SetTrigger("boxShake");
-                    
+
                 }
 
             }
@@ -245,7 +263,47 @@ public class Raycast : MonoBehaviour
                 if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
                 {
                     subTimer = 5;
-                    thoughtText.text = "Really? What does he need these for?";                
+                    thoughtText.text = "Really? What does he need these for?";
+                }
+
+            }
+
+            if (hit.collider.gameObject.tag == "spot" && !objScript.paintingComplete)
+            {
+                if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
+                {
+                    subTimer = 5;
+                    thoughtText.text = "Looks awfully empty. Something must go here.";
+                }
+
+            }
+
+            if (hit.collider.gameObject.tag == "globeRm1")
+            {
+                if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
+                {
+                    subTimer = 5;
+                    thoughtText.text = "Tip: RMB or E to examine OR pick up. If you lose a key item, press R to reset. Whatever that means.";
+                }
+
+            }
+
+            if (hit.collider.gameObject.tag == "globeRm2")
+            {
+                if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
+                {
+                    subTimer = 5;
+                    thoughtText.text = "Tip: Press Q to close a notebook page. After you collect an item, it will show up in your inventory. Whatever that means.";
+                }
+
+            }
+
+            if (hit.collider.gameObject.tag == "globe3")
+            {
+                if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
+                {
+                    subTimer = 5;
+                    thoughtText.text = "Tip: If you feel like you're in danger, find a shadow and hide in it. Look for a dark aura. If you get there too late, you'll be found.";
                 }
 
             }
@@ -406,11 +464,11 @@ public class Raycast : MonoBehaviour
             {
 
                 if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
-                {                 
+                {
 
                     subTimer = 5;
-                    thoughtText.text = "Baku wouldn't write this on his own wall... This sounds like...Laika...";
-                    
+                    thoughtText.text = "Baku wouldn't write this on his own wall...";
+
 
 
                 }
@@ -426,11 +484,11 @@ public class Raycast : MonoBehaviour
 
                     subTimer = 5;
                     thoughtText.text = "I can get through here now.";
-                    yellowBarrierBroken = true; 
+                    yellowBarrierBroken = true;
 
                     gateAnimator.SetTrigger("gateOpenTrigger");
 
-                    
+
                 }
 
             }
@@ -459,12 +517,12 @@ public class Raycast : MonoBehaviour
 
                 if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
                 {
-                    
+
                     subTimer = 5;
                     thoughtText.text = "There's something in here too.";
 
                     yellowGemAnimator.SetTrigger("yellowPopOut");
-               
+
                 }
 
             }
@@ -480,18 +538,29 @@ public class Raycast : MonoBehaviour
 
             }
 
+            if (hit.collider.gameObject.tag == "handprint")
+            {
+
+                if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
+                {
+                    subTimer = 5;
+                    thoughtText.text = "That doesn't look good.";
+                }
+
+            }
+
             if (hit.collider.gameObject.tag == "dagger")
             {
 
                 if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
                 {
 
-                    
+
                     subTimer = 5;
                     thoughtText.text = "It's surprisingly light.";
                     dagger.SetActive(false);
                     daggerCollected = true;
-                    
+
                     //added new
                     if (!appearSound.isPlaying)
                     {
@@ -505,13 +574,16 @@ public class Raycast : MonoBehaviour
             if (hit.collider.gameObject.tag == "case")
             {
 
+                caseSparkleParticle.SetActive(true);
+
                 if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
-                {                 
+                {
                     subTimer = 5;
-                    thoughtText.text = "There's something odd about this case. I should take a closer look.";                
+                    thoughtText.text = "There's something odd about this case. I should take a closer look.";
+
                 }
 
-            }
+            } else { caseSparkleParticle.SetActive(false); }
 
             if (hit.collider.gameObject.tag == "scratches")
             {
@@ -661,6 +733,46 @@ public class Raycast : MonoBehaviour
 
             }
 
+            //rm3 Observation
+
+            if (hit.collider.gameObject.tag == "purpleGem")
+            {
+                if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
+                {
+                    purpleGemCollected = true;
+
+                    if (!appearSound.isPlaying)
+                    {
+                        appearSound.PlayOneShot(appearClip, 1);
+                    }
+                }
+
+            }
+
+            if (hit.collider.gameObject.tag == "notesRm3")
+            {
+                if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
+                {
+                    subTimer = 5;
+                    thoughtText.text = "Baku's notes on vampire weaknesses. 'Silver alone just ain't enough these days. Aw well.'";
+                }
+
+            }
+
+            if (hit.collider.gameObject.tag == "laikaBarrier" && purpleGemCollected)
+            {
+                if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
+                {
+                    subTimer = 5;
+                    thoughtText.text = "I wonder what's downstairs...";
+                    laikaBarrierAnimator.SetTrigger("laikaBarrierBroken");
+
+                    laikaBarrierBroken = true;
+                    
+                }
+
+            }
+
         }
 
         if (objScript.statuesComplete)
@@ -686,6 +798,22 @@ public class Raycast : MonoBehaviour
         {
             gem.SetActive(false);
 
+        }
+
+        if(purpleGemCollected == true)
+        {
+            tearGem.SetActive(false);
+            purpleGemIMG.enabled = true;
+        }
+
+        if (laikaBarrierBroken)
+        {
+            timeToCompleteImg -= Time.deltaTime;
+        }
+
+        if(timeToCompleteImg <= 0)
+        {
+            completeIMG.enabled = true;
         }
 
         if(objScript.paintingComplete == true)

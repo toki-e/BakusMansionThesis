@@ -19,6 +19,12 @@ public class LaikaAudioScript : MonoBehaviour
     public AudioSource spookySource;
     public AudioClip spookyClip;
 
+    public AudioSource brickSource;
+    public AudioClip brickClip;
+
+    public AudioSource appearSource;
+    public AudioClip appearClip;
+
     public float timeTillLaika;
 
     public bool hit;
@@ -26,6 +32,12 @@ public class LaikaAudioScript : MonoBehaviour
     public bool dead;
 
     private BoxCollider boxCollide;
+
+    public GameObject cauldron;
+    public GameObject cauldron2;
+    public GameObject tearGem;
+
+    public GameObject laikaWriting;
 
     //public Text thoughtText;
 
@@ -75,6 +87,22 @@ public class LaikaAudioScript : MonoBehaviour
             boxCollide.enabled = false;
         }
 
+        if(timeTillLaika > 10 && timeTillLaika < 20)
+        {
+            raycastScript.thoughtText.text = "I'll be safe if I hide in a shadow long enough!";
+        }
+
+        if (successfullyHidden)
+        {
+            //raycastScript.thoughtText.text = "I think it's okay now...";     
+            cauldron.SetActive(false);
+            cauldron2.SetActive(true);
+            tearGem.SetActive(true);
+
+            laikaWriting.SetActive(true);
+        
+        }
+
     }
 
     private void OnTriggerEnter(Collider coll)
@@ -98,8 +126,14 @@ public class LaikaAudioScript : MonoBehaviour
 
             }
 
+            if (!brickSource.isPlaying)
+            {
+                brickSource.PlayOneShot(brickClip, 1);
+
+            }
+
             raycastScript.subTimer = 5;
-            raycastScript.thoughtText.text = "What was that? I'd better hide in here-!";
+            raycastScript.thoughtText.text = "What was that? I'd better hide in here!";
 
             hit = true;
 

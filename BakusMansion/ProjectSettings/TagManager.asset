@@ -44,6 +44,14 @@ TagManager:
   - piano
   - yellowBarrier
   - LaikaWriting
+  - globeRm1
+  - globeRm2
+  - globe3
+  - handprint
+  - spot
+  - purpleGem
+  - laikaBarrier
+  - notesRm3
   layers:
   - Default
   - TransparentFX
