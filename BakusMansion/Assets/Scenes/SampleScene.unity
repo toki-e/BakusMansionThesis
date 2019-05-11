@@ -13096,6 +13096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Naamloos
       objectReference: {fileID: 0}
+    - target: {fileID: 100282, guid: 78c2574fc4b1e0442ad687b1c768a5ab, type: 3}
+      propertyPath: m_TagString
+      value: bed
+      objectReference: {fileID: 0}
     - target: {fileID: 400282, guid: 78c2574fc4b1e0442ad687b1c768a5ab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.790533

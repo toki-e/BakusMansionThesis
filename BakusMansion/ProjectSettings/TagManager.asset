@@ -52,6 +52,7 @@ TagManager:
   - purpleGem
   - laikaBarrier
   - notesRm3
+  - bed
   layers:
   - Default
   - TransparentFX
@@ -88,4 +89,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: FG
+    uniqueID: 3883876041
+    locked: 0
+  - name: FG2
+    uniqueID: 1135489785
     locked: 0

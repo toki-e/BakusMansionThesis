@@ -268,6 +268,16 @@ public class Raycast : MonoBehaviour
 
             }
 
+            if (hit.collider.gameObject.tag == "bed")
+            {
+                if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
+                {
+                    subTimer = 5;
+                    thoughtText.text = "I don't need to rest anymore right now.";
+                }
+
+            }
+
             if (hit.collider.gameObject.tag == "spot" && !objScript.paintingComplete)
             {
                 if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
@@ -467,7 +477,7 @@ public class Raycast : MonoBehaviour
                 {
 
                     subTimer = 5;
-                    thoughtText.text = "Baku wouldn't write this on his own wall...";
+                    thoughtText.text = "Baku wouldn't write this on his own wall... That was close.";
 
 
 
@@ -483,7 +493,7 @@ public class Raycast : MonoBehaviour
                     yellowBarrierAnimator.SetTrigger("yellowBroken");
 
                     subTimer = 5;
-                    thoughtText.text = "I can get through here now.";
+                    thoughtText.text = "It looks like this gate was just an illusion?";
                     yellowBarrierBroken = true;
 
                     gateAnimator.SetTrigger("gateOpenTrigger");
@@ -754,7 +764,7 @@ public class Raycast : MonoBehaviour
                 if (Input.GetKey(interactKey) || Input.GetMouseButton(0))
                 {
                     subTimer = 5;
-                    thoughtText.text = "Baku's notes on vampire weaknesses. 'Silver alone just ain't enough these days. Aw well.'";
+                    thoughtText.text = "Baku's notes on vampires. 'Silver alone just ain't enough these days. Aw well.'";
                 }
 
             }
